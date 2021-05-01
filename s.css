@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
+
+
+
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin:0;
+    background-image:url("aa.jpg");
+    background-size:cover;
+    min-height: 100vh;
+    background-position: center center ;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    
+}
+
+h1{
+    font-size: 4rem;
+    font-weight:normal;
+    margin-top: 5rem;
+}
+.countdown{
+    display: flex;
+    text-align: center;
+}
+.big-text{
+    font-size :6rem;
+    line-height:1;
+    margin : 0 2rem;
+    font-weight:bold;
+}
+span{
+    font-size: 20px;
+}
+.countdown-el{
+    font-size:1.5rem;
+}
